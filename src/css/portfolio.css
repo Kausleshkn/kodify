@@ -1,0 +1,68 @@
+.card1 {
+    width: 320px; /* Fixed width */
+    max-height: 400px; /* Fixed height */
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: rgb(25, 24, 31); /* Background color */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; /* Shadow */
+    display: flex;
+    flex-direction: column; /* Ensure content aligns properly */
+}
+
+.card1 img {
+    width: 100%;
+    height: 200px; /* Fixed height for the image */
+    object-fit: cover; /* Maintain aspect ratio */
+    border-bottom: 1px solid #ddd;
+}
+
+.card-content {
+    padding: 15px;
+    text-align: center;
+    flex: 1; /* Allows the content to take up available space */
+}
+
+.card-content p {
+    margin: 0 0 15px;
+    color: #ffffff;
+    font-size: 28px; /* Adjusted font size */
+    font-weight: 700;
+}
+
+.visit-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.2); /* Glassy effect */
+    text-decoration: none;
+    font-weight: bold;
+    backdrop-filter: blur(10px); /* Glassy effect */
+}
+
+.visit-button:hover {
+    background: rgba(0, 0, 0, 0.4); /* Darker hover effect */
+    border-color: rgba(255, 255, 255, 0.7);
+}
+.card-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 80px;
+    padding: 20px;
+    justify-content: center;
+}
+@media (max-width:600px) {
+    .card-container {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 80px;
+        padding: 20px;
+        justify-content: center;
+    }
+}
+.mymaincontainer1{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

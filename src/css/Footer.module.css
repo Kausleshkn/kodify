@@ -1,0 +1,7 @@
+.companyLink{
+    font-size: 1rem;
+}
+
+.companyLink:hover{
+    color: blue !important;
+}
